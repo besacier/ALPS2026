@@ -18,8 +18,8 @@ Improving turn-taking of Full‑duplex audio agents:
 - improves **responsiveness/latency** (both timing and reaction)
 - enables domain/style norms (customer support, coaching, etc.) with minimal retraining
 
-## 4) Candidate bases to evaluate 
-This project includes identifying the best base target by:
+## 4) Candidate models to evaluate 
+This project includes identifying the best model by:
 - availability (weights/code access)
 - license and usage constraints
 - ease of running locally/offline
