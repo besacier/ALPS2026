@@ -57,7 +57,7 @@ To train or imitate turn-taking offline we need conversational audio with:
 ### Data acquisition paths (to be evaluated in the project)
 - Public conversational audio corpora with overlap / multi-speaker properties
 - Public meeting datasets (often have overlap; diarization may be available or derivable)
-- Synthetic overlap construction (mix two single-speaker streams to simulate barge-in events) for toy training
+- Synthetic dataset construction (mix two single-speaker streams to simulate conversations)
 
 ### Minimal annotation pipeline (offline)
 - VAD (voice activity detection) → speech segments
