@@ -35,7 +35,7 @@ Initial thoughts:
 ### Key idea
 Add a lightweight learned component that outputs **turn-taking control signals** conditioned on:
 - recent audio context (user/agent speech activity)
-- conversational state features (who has the floor, ...)
+- conversational state features (who has the floor: user or agent)
 - optional text/semantic context (if available) 
 
 ### Policy interface (to be extended/improved)
