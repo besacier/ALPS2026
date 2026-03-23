@@ -79,10 +79,9 @@ To train or imitate turn-taking offline we need conversational audio with:
 - train a minimal policy classifier/regressor predicting labels in the action space `SPEAK` vs `WAIT` vs `YIELD` 
 - baseline: heuristic policy (e.g., simple VAD based)
 
-### Deliverable D — Communication of project plan 
-- Slides outline + narrative
-- (Optionally) Video/demo concept storyboard
-
+### Deliverable D — Communicating the project plan
+- Slide deck outline + narrative (working title, clear pitch, key messages)
+- (Optional) Video/demo storyboard (what we would show, and how we would measure success)
 
 ## 8) Recommended reads / prep
 - Moshi: https://github.com/kyutai-labs/moshi
