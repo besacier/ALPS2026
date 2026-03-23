@@ -62,9 +62,7 @@ To train or imitate turn-taking offline we need conversational audio with:
 ### Minimal annotation pipeline (offline)
 - VAD (voice activity detection) → speech segments
 - Diarization (speaker segmentation) → speaker turns
-- Derive labels:
-  - “should speak now?” based on floor ownership heuristics
-  - “should yield?” when user starts speaking during agent speech
+- Derive labels: SPEAK/WAIT/YIELD
 
 
 ## 7) 1-day project deliverables (expected concrete outcomes)
