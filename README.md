@@ -35,11 +35,11 @@ Initial thoughts:
 ### Key idea
 Add a lightweight learned component that outputs **turn-taking control signals** conditioned on:
 - recent audio context (user/agent speech activity)
-- conversational state features (who has the floor, overlap indicators, recent yields)
+- conversational state features (who has the floor, ...)
 - optional text/semantic context (if available) 
 
-### Policy interface (conceptual)
-Define a minimal action space to be implemented by a runtime controller:
+### Policy interface (to be extended/improved)
+Define a minimal action space to be implemented:
 - `SPEAK`  — start/continue agent speech generation
 - `WAIT`   — hold response; do not start speaking
 - `YIELD`  — immediately stop (or pause) the agent’s current speech output when the user starts talking
@@ -47,15 +47,16 @@ Define a minimal action space to be implemented by a runtime controller:
 *(Later extensions: `INTERRUPT`, `BACKCHANNEL`, etc.)*
 
 ### Where adapters/LoRA fit 
-Here is a possible option. The project could  explicitly evaluate other options:
+Here is an initial design option:
 1. **Token/control-first**: LoRA adapts the base model to emit special control tokens interpreted by the runtime.
+The project will also explicitly evaluate alternative approaches.
 
 ## 6) Data (what’s needed)
-### Minimum training signal needed for v1 turn-taking
-To train or imitate turn-taking offline we need audio with:
+### Minimum training signal needed for training a turn-taking system
+To train or imitate turn-taking offline we need conversational audio with:
 - **who spoke when** (speaker diarization segments)
 - **overlap regions** (simultaneous speech)
-- timestamps sufficient to compute turn gaps and barge-in timing
+- associated timestamps 
 
 ### Data acquisition paths (to be evaluated in the project)
 - Public conversational audio corpora with overlap / multi-speaker properties
