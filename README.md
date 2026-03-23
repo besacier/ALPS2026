@@ -5,13 +5,12 @@
 ## 1) One-paragraph project summary
 This project explores **parameter-efficient “dialogue policy adapters” (LoRA-like)** to improve **turn-taking** for existing **full‑duplex audio LLM systems** (e.g., Moshi; SALMONN‑omni as candidates described in literature). Rather than building turn-taking from scratch, we aim to learn a lightweight adaptation layer that improves *when the agent speaks, waits, or pauses*— improving perceived conversational naturalness and responsiveness—using **small conversational datasets**.
 
-## 2) Scope (v1)
-### In scope (v1)
+## 2) Scope 
 - **Audio-only** (no video cues)
 - Turn-taking behaviors:
 - **(A)** decides when the agent should **start speaking while it’s silent**;
-- **(B)** decides whether/when the agent should **stop (yield) when the user starts speaking during the agent’s speech**.  - **(B) Interruptions / listening** (barge-in handling)
-- **Adapters / LoRA-like** fine-tuning as the intended parameter-efficient method (final implementation target)
+- **(B)** decides whether/when the agent should **stop (yield) when the user starts speaking during the agent’s speech**. 
+- **Adapters / LoRA-like** fine-tuning as the intended parameter-efficient method 
 
 ## 3) Why this matters
 Full‑duplex audio agents can be improved on interaction mechanics. Improving turn-taking:
