@@ -65,21 +65,21 @@ To train or imitate turn-taking offline we need conversational audio with:
 - Derive labels: SPEAK/WAIT/YIELD
 
 
-## 7) 1-day project deliverables (expected concrete outcomes)
+## 7) Examples of expected project deliverables (concrete outcomes)
 ### Deliverable A — Model selection memo + decision matrix
 - 2–3 best candidates + runner-up(s)
-- explicit pros/cons: availability, license, LoRA support, full-duplex hooks, ease of use
+- explicit pros/cons: availability, license, LoRA support, ease of use
 - recommended “first target” for a follow-on implementation
 
 ### Deliverable B — Data + annotation plan
 - 1–2 public dataset candidates for toy training
-- minimal pipeline steps (VAD/diarization) with tooling suggestions
+- Minimal annotation pipeline (if needed): VAD and diarization steps, with suggested tools
 
-### Deliverable C — Toy offline training evidence (tiny demo)
-- train a minimal policy classifier/regressor predicting `SPEAK` vs `WAIT/YIELD` from derived features
-- baseline: heuristic policy (e.g., simple VAD floor rule)
+### Deliverable C — Toy offline training evidence 
+- train a minimal policy classifier/regressor predicting labels in the action space `SPEAK` vs `WAIT` vs `YIELD` 
+- baseline: heuristic policy (e.g., simple VAD based)
 
-### Deliverable D — Communication 
+### Deliverable D — Communication of project plan 
 - Slides outline + narrative
 - (Optionally) Video/demo concept storyboard
 
