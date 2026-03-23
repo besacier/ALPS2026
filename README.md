@@ -46,10 +46,6 @@ Define a minimal action space to be implemented:
 
 *(Later extensions: `INTERRUPT`, `BACKCHANNEL`, etc.)*
 
-### Where adapters/LoRA fit 
-Here is an initial design option:
-1. **Token/control-first**: LoRA adapts the base model to emit special control tokens interpreted by the runtime.
-The project will also explicitly evaluate alternative approaches.
 
 ## 6) Data (what’s needed)
 ### Minimum training signal needed for training a turn-taking system
