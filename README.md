@@ -13,7 +13,7 @@ This project explores **parameter-efficient “dialogue policy adapters” (LoRA
 - **Adapters / LoRA-like** fine-tuning as the intended parameter-efficient method 
 
 ## 3) Why this matters
-Full‑duplex audio agents can be improved on interaction mechanics. Improving turn-taking:
+Improving turn-taking of Full‑duplex audio agents:
 - increases perceived **naturalness**
 - improves **responsiveness/latency** (both timing and reaction)
 - enables domain/style norms (customer support, coaching, etc.) with minimal retraining
