@@ -31,7 +31,7 @@ Initial thoughts:
 - SALMONN‑omni: https://arxiv.org/abs/2505.17060
 - NVIDIA PersonaPlex (policy/persona inspiration): https://research.nvidia.com/labs/adlr/personaplex/
 
-## 5) Proposed approach (conceptual architecture)
+## 5) Proposed approach
 ### Key idea
 Add a lightweight learned component that outputs **turn-taking control signals** conditioned on:
 - recent audio context (user/agent speech activity)
