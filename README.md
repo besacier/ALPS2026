@@ -2,6 +2,7 @@
 **Date:** 2026-03-23  
 **Format:** 1-day mini project (6 people) → concrete research plan 
 **Slide deck:** [Download slides](turnado_deck.pdf)
+
 **work from:** Jason Chan, Jeremias Bohn, AriaRay Brown, Michelle Elizabeth, Zofia Milczarek, Amirbek Djanibekov
 
 
