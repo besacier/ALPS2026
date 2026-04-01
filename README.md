@@ -2,7 +2,7 @@
 **Date:** 2026-03-23  
 **Format:** 1-day mini project (6 people) → concrete research plan 
 
-**Slide deck:** [turnado_deck.pdf](https://github.com/besacier/ALPS2026/raw/main/turnado_deck.pdf)
+**Slide deck:** [turnado_deck.pdf](https://docs.google.com/viewer?url=https://github.com/besacier/ALPS2026/raw/main/turnado_deck.pdf)
 
 **work from:** Jason Chan, Jeremias Bohn, AriaRay Brown, Michelle Elizabeth, Zofia Milczarek, Amirbek Djanibekov
 
