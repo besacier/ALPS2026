@@ -2,6 +2,8 @@
 **Date:** 2026-03-23  
 **Format:** 1-day mini project (6 people) → concrete research plan 
 **Slide deck:** [Download slides](turnado_deck.pdf)
+**work from:** Jason Chan, Jeremias Bohn, AriaRay Brown, Michelle Elizabeth, Zofia Milczarek, Amirbek Djanibekov
+
 
 ## 1) One-paragraph project summary
 This project explores **parameter-efficient “dialogue policy adapters” (LoRA-like)** to improve **turn-taking** for existing **full‑duplex audio LLM systems** (e.g., Moshi; SALMONN‑omni as candidates described in literature). Rather than building turn-taking from scratch, we aim to learn a lightweight adaptation layer that improves *when the agent speaks, waits, or pauses*— improving perceived conversational naturalness and responsiveness—using **small conversational datasets**.
